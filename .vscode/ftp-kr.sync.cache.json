@@ -1,0 +1,22 @@
+{
+  "ftp://akipfer@44.209.192.83:21": {
+    "assets": {
+      "css": {
+        "custom.css": {
+          "type": "-",
+          "size": 13763,
+          "lmtime": 1666640866651,
+          "modified": false
+        }
+      }
+    },
+    "css_tailwind": {
+      "node_modules": {
+        "fastq": {
+          "test": {}
+        }
+      }
+    }
+  },
+  "$version": 1
+}

@@ -1,3 +1,0 @@
-entrar na pasta onde tem o taiswind config.jons
-
-npx tailwindcss -i ./src/input.css -o ../assets/css/custom.css --watch

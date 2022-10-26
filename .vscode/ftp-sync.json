@@ -1,0 +1,29 @@
+{
+    "remotePath": "./",
+    "host": "44.209.192.83",
+    "username": "akipfer",
+    "password": "AC256423ck",
+    "port": 21,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": true,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.css_tailwind",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ".js",
+             ".css"
+        ],
+        "path": "assets\\css\\custom.css"
+    }
+}
