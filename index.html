@@ -1,100 +1,393 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5VPW9N4");
+    </script>
+
+    <!-- novo gtag aqui  -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-10943383813"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-10943383813");
+    </script>
+    <!-- Event snippet for Website traffic conversion page -->
+    <script>
+      gtag("event", "conversion", {
+        send_to: "AW-10943383813/fyQzCNvMycsDEIWSm-Io",
+      });
+    </script>
+
+    <!-- fim novo gtag aqui -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta
+      name="description"
+      content="Landing Page de alta convers'ao focada em gamers, com problemas em seus computadores que podem precisar de uma formatação para voltar a ter um uso normal e sem erros/problemas."
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=3.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=5"
+    />
+
     <link rel="stylesheet" href="assets/css/custom.css" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <style></style>
+    <title>
+      KatHtaK Informática - Seu problema é nosso, para você focar no que
+      importa: Diversão!!!
+    </title>
 
-    <title>KatHtaK Informática - Seu tempo no que mais gosta. Jogando!!!</title>
+    <!-- Inicio dev stuff aqui -->
+    <script>
+      dev = 0;
+      function linksParaFixar(dev) {
+        if (dev == 1) {
+          var listaDeLinks = document.getElementsByTagName("a");
+          for (var i = 0; i < listaDeLinks.length; i++) {
+            listaDeLinks[i].href = "javascript:void(0);";
+            listaDeLinks[i].target = "_self";
+            console.log("Rodou de boas");
+          }
+        }
+      }
+    </script>
+    <!-- Fim dev stuff aqui -->
   </head>
-  <body class="sm:text-2xl py-6 px-2 items-center text-justify">  
+  <body
+    class="sm:text-2xl py-6 px-2 items-center text-justify"
+    onload="console.log('status.onload=pronto.');linksParaFixar(dev)"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5VPW9N4"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header
-      class="place-content-center items-center text-center  space-y-5 sm:grid sm:grid-cols-2"
-    > 
-      <img class="sm:max-w-xs flex mx-auto" src="assets/images/logo.webp" />
-      <div class="">
-        <h1   
-          class="text-2xl md:text-6xl text-right font-bold text-green-900 flex justify-around"
-        > 
+      class="mx-auto items-center text-center space-y-5 sm:grifd sm:grid-cols-2"
+    >
+      <img
+        alt="Logo KatHtaK"
+        class="max-w-xs sm:max-w-xs flex mx-auto"
+        src="assets/images/logo.webp"
+        srcset="assets/images/logo-220w.png 220w, assets/images/logo.webp 768w"
+        width="120"
+        height="149"
+      />
+      <div class="mx-auto">
+        <h1
+          class="top-0 text-xs sm:text-6xl font-bold text-green-900 flex justify-around"
+        >
           KatHtaK
         </h1>
-        <h2 class="text-3xl md:text-3xl italic flex justify-around">
+        <h2 class="text-xs sm:text-3xl italic flex justify-around">
           Formatação de computador
         </h2>
       </div>
-    </header> 
+    </header>
 
-    <main class="container mx-auto min-h-[60vh] p-2 sm:p-6" style="">
-      <div
-        class="sm:w-3/4 mx-auto"
-        style="
-          background: url('assets/images/GraficoFoguete-1.svg');
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-size: 80%; 
-        " 
-      >
-        <p class="">
-          Formatamos seu computador antes mesmo que você sinta falta. Sem mais
-          desculpas!
+    <main class="container mx-auto p-2 sm:p-6">
+      <div class="sm:w-3/4 mx-auto">
+        <h1 class="text-md font-bold sm:mt-3">
+          Formatamos seu computador ou notebook antes mesmo de você sentir a
+          falta! Rápido, seguro e respeitando sua privacidade.
+        </h1>
+
+        <h2 class="text-md sm:mt-3">
+          Um equipamento parado significa um colaborador ocioso ou com sua
+          produtividade parcial, em qualquer empresa moderna isso não pode ser
+          aceitável
+        </h2>
+
+        <a
+          target="_blank"
+          class="bt_click_zap md:hidden flex mx-auto place-content-center text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+          href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
+          >Preciso formatar <br />
+          meu computador</a
+        >
+        <a
+          target="_blank"
+          class="bt_click_zap hidden md:block flex mx-auto text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+          href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
+          >Preciso formatar meu computador</a
+        >
+        <h2 class="text-md mt-5 xs:mt-10 mx-auto">
+          <span class="font-bold"> Ah, e aqui a competição é sempre justa</span
+          >, nós ficamos grato, seu bolso também!
+          <span class="text-orange-300"
+            >Apenas R$100 reais por formatação.</span
+          >
+        </h2>
+        <hr class="mt-10 border-3 bg-emerald-400 h-1" />
+
+        <p class="mt-10 sm:mt-10">
+          <span class="font-thin"> No entanto</span>, a opção mais aceitada pelo
+          público é a assinatura premium mensal, veja mais detalhes na tabela
+          abaixo:
         </p>
 
-        <p class="mt-10">
-          Atendemos à todas as marcas inclusive computadores ou notebooks
-          customizados via pedidos em sites. Sabemos o que você procura, e vamos
-          garantir à mais alta performance com a formatação, trazendo agilidade
-          sem comprometer sua privacidade, tudo isso antes que você sinta se
-          quer falta do equipamento
+        <p class="mt-10 sm:mt-10">
+          <span class="font-thin italic"> Entenda:</span> Para um bom
+          funcionamento, deverá formatar seu computador entre 6 a 18 meses,
+          certamente tudo varia de acordo com seu uso. No entanto, formatando 2
+          vezes ao ano, você tira do bolso cada vez na média de ~R$110, chegando
+          á R$150 em alguns casos.. por formatação, ou seja, para melhor
+          desempenho, duas formatações por ano, um investimento de até R$270 por
+          ano.
         </p>
+
+        <p class="mt-10 sm:mt-10">
+          <span class="font-thin italic"> Como funciona?</span> Ao invez de se
+          apurar para pagar um alto valor na pior hora, onde muitas vezes é o
+          momento em que você menos está preparado, você pode optar pela
+          assinatura, com a assinatura em dia, você garante 2 formatações por
+          ano, com backup, sem outras cobranças. É só agendar o drop(entrega na
+          loja) e deixar que vamos fazer um ótimo serviço, sem custar muito para
+          você.
+        </p>
+
+        <p class="mt-10 sm:mt-10">
+          <span class="font-thin italic"> Se liga na ideia :D</span> Criamos um
+          plano com recobrança mensal, estilo assinatura como Spotify e Netflix,
+          essa cobrança é feita mensalmente. Não é o valor parcelado, não será
+          descontado valores equivalente a formatação tradicional do limite, não
+          não, apenas valor da mensalidade que cabe a sua escolha que sera
+          cobrado, veja as opções na tabela abaixo.
+        </p>
+
+        <!-- <p class="sm:mt-10">
+        Aqui a competição é justa, nós ficamos felizes, seu bolso também! Com
+        apenas R$80,00 Formatamos seu computador antes que você sinta falta.
+        Rápido, Seguro e Respeitando sua privacidade. Sem mais desculpas!
+      </p>   -->
+
+        <img
+          alt="Gráfico de economia, tendo 2 formatações anuais vs pagamento mensal acumulado em 12 meses(1 ano)"
+          class="max-w-80 flex mx-auto mt-4"
+          src="assets/images/Grafico-economia3BigBig.png"
+          srcset="
+            assets/images/Grafico-economia3BigBig.png 768,
+            assets/images/Grafico-economia3BigBig.png 1080w
+          "
+        />
+        <p class="mt-10 sm:mt-10">
+          <span class="font-thin italic"> D'hora não é?</span> Caso tenha alguma
+          dúvida, entre em contato conosco, vamos sanar elas o quanto antes. Ah,
+          na tabela temos 3 computadores, que é a quantidade que mais costuma
+          ter na casa. Mas caso você precisa para mais, por favor, entre em
+          contato. Seja para sua casa, Cibercafé ou Empresa
+        </p>
+
+        <!-- <object class="mx-auto" data='assets/images/Tabelas e gráficos Custos Normais anuais vs Assinatura mensal xs.pdf#toolbar=0' 
+        type='application/pdf' 
+        width='80%' 
+        height='700px'> -->
+
         <div class="mt-10">
-          <a 
-            class="md:hidden flex mx-auto place-content-center text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[0.4vh] border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
-            href="https://wa.me/5547991017036?text=Quero+render+mais+em+menos+tempo+com+meu+equipamento"
+          <a
+            target="_blank"
+            class="bt_click_zap md:hidden flex mx-auto place-content-center text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+            href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
             >Preciso formatar <br />
-            meu computador</a  
+            meu computador</a
           >
           <a
-            class="hidden md:block flex mx-auto text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[0.4vh] border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
-            href="https://wa.me/5547991017036?text=Quero+render+mais+em+menos+tempo+com+meu+equipamento"
+            target="_blank"
+            class="bt_click_zap hidden md:block flex mx-auto text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+            href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
+            >Preciso formatar meu computador</a
+          >
+
+          <p class="mt-10">
+            Sabemos o que você procura, e vamos garantir à mais alta performance
+            com a formatação, trazendo agilidade sem comprometer sua
+            privacidade, tudo isso antes que você sinta se quer falta do
+            equipamento.
+          </p>
+        </div>
+        <div class="mt-10">
+          <a
+            target="_blank"
+            class="bt_click_zap md:hidden flex mx-auto place-content-center text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+            href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
+            >Preciso formatar <br />
+            meu computador</a
+          >
+          <a
+            target="_blank"
+            class="bt_click_zap hidden md:block flex mx-auto text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+            href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
             >Preciso formatar meu computador</a
           >
         </div>
       </div>
 
-      <div class="sm:w-3/4 mx-auto">
-        <img   
-          class="md:w-72"   
-          src="assets/images/Winner-Winner-Chicken-Dinner-Montage-1-768x681.png.webp"
-        />
- 
-        <p >
-          Tentamos puxar cada vez mais adiante, até que a merda acontece e então
-          bate o arrependimento. Não é? Então resolva o problema antes do ponto
-          críto, evite perder tempo, e o mais importante, fim
-        </p>
+      <div
+        class="sm:w-3/4 mx-auto"
+        style="
+          background: url('assets/images/GraficoFoguete-1.svg');
+          background-repeat: no-repeat;
+          background-position: bottom;
+          background-size: 270px;
+        "
+      >
+        <div
+          class="place-content-center items-center text-center space-y-5 sm:grid sm:grid-cols-2"
+        >
+          <img
+            CHICKEN-DINNER
+            alt="PUBG Saying 'Winner Winner Chicken Dinner' + Ez-Loose montage"
+            class="max-w-xs md:w-72 align-middle mx-auto"
+            src="assets/images/Winner-Winner-Chicken-Dinner-Montage-1-768x681.png.webp"
+            srcset="
+              Winner-Winner-Chicken-Dinner-Mon-170w.png                             170w,
+              assets/images/Winner-Winner-Chicken-Dinner-Montage-1-768x681.png.webp 320w
+            "
+            width="170"
+            height="1150"
+          />
 
-        <span class="flex mt-4">EVITE PERDER:</span>
-        <ul class="pl-8 mt-5 list-disc">
-          <li>Save-Games e Key-Binds</li> 
-          <li>Muita Diversão</li>
-          <li>Imagens e fotos da família</li>
-          <li>Documentos pessoais e privados</li>
-          <li>Dados Importantes</li>
-          <li>Compromissos</li>
-          <li>Dia de chuva, sem uma call combinando o jogo com a galera</li>
+          <p
+            class="text-sm md:text-base md:text-3xl italic flex justify-around align-middle mx-auto"
+          >
+            Evite que a M#$%@ aconteça momentos antes ou durante a diversão! É
+            sua responsabilidade manter o equipamento em ótimas condições para
+            evitar surpresas nessas horas.
+          </p>
+        </div>
+
+        <span class="flex mt-4">EVITE PERDER TAMBÉM:</span>
+        <ul class="pl-1 mt-5 list-disc">
+          <li>Save-Games e Key-Binds.</li>
+          <li>Perder round contra o amigo.</li>
+          <li>
+            Documentos pessoais e privados como Imagens e fotos da família.
+          </li>
+          <li>
+            Clipes irados de seus melhores momentos sozinho ou com a galera em
+            seus jogos favoritos.
+          </li>
+          <li>Compromissos.</li>
+          <li>Dia de chuva, sem uma call combinando o jogo com a galera.</li>
+          <li>
+            Perder round contra o amigo. Sim, eu sei que já disse isso. Não sei
+            você mas eu detesto perder pra amigo especialmente quando não sou a
+            causa direta da derota.
+          </li>
           <li>
             <span class="line-through">Lindo céu azul, jogando no PC</span>
             Muita diversão, é serio, muito mesmo!
           </li>
         </ul>
+
+        <div class="mt-10">
+          <a
+            target="_blank"
+            class="bt_click_zap md:hidden flex mx-auto place-content-center text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+            href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
+            >Preciso formatar <br />
+            meu computador</a
+          >
+          <a
+            target="_blank"
+            class="bt_click_zap hidden md:block flex mx-auto text-center px-3 py-1 mt-10 max-w-[85vw] uppercase hover:underline border border-[#fbb916] bg-green-300 text-yellow-600 rounded-tl rounded-br rounded-[10px]"
+            href="https://wa.me/5547991017036?text=Quero+Resolver+Meu+Problema+Agora"
+            >Preciso formatar meu computador</a
+          >
+        </div>
+        <div class="mx-auto">
+          <span class="flex mx-auto place-content-center text-center mt-4"
+            ><h2>.:NOSSOS SELOS DE ESPECIALIDADE:.</h2></span
+          >
+          <ul class="pl-1 mt-5 list-disc">
+            <li>Maximum Format -> Formatação de PC Gamer.</li>
+            <li>
+              Maximum Speed -> Entregar o equipamento o mais rápido possível.
+            </li>
+            <li>
+              Maximum Armor -> Garantia total de privacidade e sigilo de dados,
+              também de acordo com a LGPD.
+            </li>
+            <li>
+              Maximum Backup -> Salvamento de config. de jogos como binds.
+            </li>
+            <li>
+              Maximum Private Backup -> Salvamento de documentos pessoais, fotos
+              e trabalhos de aula.
+            </li>
+            <li>
+              Maximum Profit -> Eficiência em Aprimoramentos -> Investimento vs
+              Benefícios.
+            </li>
+            <li>
+              Maximum Chill -> Limpeza até nas entranhas, com a melhor pasta
+              térmica que há na workshop
+            </li>
+            <li>
+              <span class="line-through"
+                >Aproveitar o dia ensolarado com atividade externa</span
+              >
+              Muita diversão, na telinha do computador.
+            </li>
+          </ul>
+          <span class="flex mx-auto place-content-center text-center mt-10"
+            >.:SELOS DE ESPECIALIDADES NADA ESPECIAIS:.</span
+          >
+          <ul class="mt-10">
+            <li class="line-through decoration-gray-300/[.45]">
+              Maximum RAGE QUIT -> Perder round contra o amigo e quitar.
+            </li>
+            <li class="line-through decoration-gray-300/[.45]">
+              Maximum Giveaway -> Entregar(Doar..sem quer..) a partida por
+              besteira ao adversário.
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class=""></div>
     </main>
 
-    <footer></footer>
+    <footer class="mt-5 md:mt-20 items-center text-center space-y-5">
+      <img
+        alt="Logo KatHtaK"
+        class="max-w-xs sm:max-w-xs flex mx-auto"
+        src="assets/images/logo.webp"
+        srcset="assets/images/logo-220w.png 220w, assets/images/logo.webp 768w"
+        width="120"
+        height="149"
+      />
+      Desenvolvido por Kathtak Produções Digitais -
+      <a target="_blank" href="/grupo">www.kathtak.com.br/grupo</a>
+    </footer>
   </body>
 </html>
-  

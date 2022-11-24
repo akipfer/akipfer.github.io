@@ -4,16 +4,9 @@
       "css": {
         "custom.css": {
           "type": "-",
-          "size": 13763,
-          "lmtime": 1666640866651,
+          "size": 13884,
+          "lmtime": 1669227796153,
           "modified": false
-        }
-      }
-    },
-    "css_tailwind": {
-      "node_modules": {
-        "fastq": {
-          "test": {}
         }
       }
     }
