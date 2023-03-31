@@ -550,6 +550,10 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -650,6 +654,16 @@ video {
 
 .min-h-\[60vh\] {
   min-height: 60vh;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.min-h-max {
+  min-height: -moz-max-content;
+  min-height: max-content;
 }
 
 .w-5 {
@@ -963,6 +977,10 @@ video {
 
   .sm\:max-w-\[640px\] {
     max-width: 640px;
+  }
+
+  .sm\:max-w-md {
+    max-width: 28rem;
   }
 
   .sm\:grid-cols-2 {
