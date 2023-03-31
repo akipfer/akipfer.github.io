@@ -5,8 +5,8 @@ var faq = document.getElementsByClassName("faq-page");
 	for (i = 0; i < faq.length; i++) {
 
 
-        if (i => 1){console.log("maior que um")} 
-        if (i => 1){console.log("total de i" . i)} 
+        // if (i => 1){console.log("maior que um")} 
+        // if (i => 1){console.log("total de i" . i)} 
 
 
 		faq[i].addEventListener("click", function () {
@@ -15,7 +15,7 @@ var faq = document.getElementsByClassName("faq-page");
 			this.classList.toggle("active");
 
 			/* Toggle between hiding and showing the active panel */
-			var body = this.nextElementSibling;
+			var body = this.nextElementSibling
 			if (body.style.display === "block") {
 				body.style.display = "none";
 			} else {
